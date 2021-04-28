@@ -90,45 +90,6 @@
           "type": "audio/x-m4a",
           "duration": 2917
         }
-      },
-      {
-        "id": "comunidades-e-tecnologia",      
-        "title": "FalaDev #23 | O que comunidades têm a ver com tecnologia?",
-        "members": "Diego Fernandes, Isabela Castilho e João Inácio",
-        "published_at": "2020-10-16 13:00:00",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/comunidade.jpg",
-        "description": "<p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.</p><p>O Faladev é um podcast original Rocketseat onde conversamos sobre diversos assuntos que importam para a sua carreira dev.</p><p>Nesse primeiro episódio da nova temporada, Diego Fernandes se reúne com Isabela Castilho e João Inácio Neto (Biro) para discutir sobre comunidades e o impacto que elas exercem na carreira de devs em busca do próximo nível. Afinal, O que é uma comunidade e o que tem a ver com tecnologia?</p>",
-        "file": {
-          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/comunidade.m4a",
-          "type": "audio/x-m4a",
-          "duration": 2677
-        }
-      },
-      {
-        "id": "typescript-vale-a-pena",      
-        "title": "FalaDev #22 - TypeScript vale a pena? JavaScript perde sentido?",
-        "members": "Diego Fernandes, Mayk Brito e João Pedro",
-        "published_at": "2020-05-04 14:49:35",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/typescript.jpg",
-        "description": "<p>Três programadores conversam sobre TypeScript.</p><p>Vamos discutir a usabilidade e as previsões da linguagem no cenário da programação.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.</p>",
-        "file": {
-          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/typescript.m4a",
-          "type": "audio/x-m4a",
-          "duration": 1772
-        }
-      },
-      {
-        "id": "estrategias-de-autenticacao-jwt-oauth",      
-        "title": "FalaDev #21 - Estratégias de autenticação, JWT, OAuth, qual usar?",
-        "members": "Diego Fernandes, Higo Ribeiro e Guilherme Pellizzetti",
-        "published_at": "2020-04-09 20:00:00",
-        "thumbnail": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/autenticacao.jpg",
-        "description": "<p>Três programadores conversam sobre estratégia de autenticação.</p><p>Vamos discutir quais aspectos você deve considerar na hora de fazer a sua escolha.</p><p>A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.</p>",
-        "file": {
-          "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/autenticacao.m4a",
-          "type": "audio/x-m4a",
-          "duration": 1463
-        }
       }
     ]
   }
