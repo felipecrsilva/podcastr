@@ -4,7 +4,7 @@
 
 ---
 
-![Podcastr preview](/public/Capa.png)
+<img src="https://ik.imagekit.io/4d2zqchevzp/Capa_7ZxOmFZKhJ.png" alt="Podcastr logo">
 
 ## 🔨 Tecnologies
 
