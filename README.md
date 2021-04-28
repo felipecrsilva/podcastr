@@ -1,11 +1,10 @@
-
 <div align="center">
   <img src="/public/logo.svg" alt="Podcastr logo">
 </div>
 
 ---
 
-![Podcastr preview](.github/app-preview.png)
+![Podcastr preview](/public/Capa.png)
 
 ## 🔨 Tecnologies
 
