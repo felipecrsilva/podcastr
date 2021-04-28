@@ -26,10 +26,7 @@ export function Player() {
         playPrevious, 
         hasNext, 
         hasPrevious,
-        clearPlayerState, 
-        isModal, 
-        open, 
-        close
+        clearPlayerState
     } = usePlayer()
 
     useEffect(() => {

@@ -27,10 +27,6 @@ type PlayerContextData = {
     clearPlayerState: () => void;
     hasNext: boolean;
     hasPrevious: boolean;
-    modal: boolean;
-    isModal: boolean;
-    open: () => void;
-    close: () => void;
 }
 
 export const PlayerContext = createContext({} as PlayerContextData)
@@ -127,10 +123,7 @@ export function PlayerContextProvider({ children } : PlayerContextProviderProps)
             setPlayingState, 
             hasNext, 
             hasPrevious, 
-            clearPlayerState, 
-            isModal, 
-            open,
-            close
+            clearPlayerState
         }}>
             { children }
         </PlayerContext.Provider>
