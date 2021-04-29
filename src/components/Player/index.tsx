@@ -76,8 +76,8 @@ export function Player() {
                 <div className={styles.currentEpisode}>
                     <Image 
                       className={styles.thumbnail}
-                      width={50} 
-                      height={50} 
+                      width={592} 
+                      height={592} 
                       src={episode.thumbnail} 
                       objectFit="cover" />
 

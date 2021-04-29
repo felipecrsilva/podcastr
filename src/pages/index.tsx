@@ -89,6 +89,7 @@ export default function Home({ latestEpisodes, allEpisodes } : HomeProps) {
                 <tr key={episode.id}>
                   <td style={{ width: 72 }}>
                     <Image
+                      className={styles.thumbnail}
                       width={120}
                       height={120}
                       src={episode.thumbnail}
