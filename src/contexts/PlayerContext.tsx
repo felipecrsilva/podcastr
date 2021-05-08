@@ -94,18 +94,6 @@ export function PlayerContextProvider({ children } : PlayerContextProviderProps)
         setCurrentEpisodeIndex(0)
     }
 
-    function open() {
-        setIsModal(true)
-
-        return (
-            <Player />
-        );
-    }
-
-    function close() {
-        setIsModal(false)
-    }
-
     return (
         <PlayerContext.Provider value={{ 
             episodeList, 
