@@ -9,6 +9,8 @@
     "server": "json-server db.json -w -d 750 -p 3333"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "axios": "^0.21.1",
     "date-fns": "^2.21.1",
     "next": "10.1.3",

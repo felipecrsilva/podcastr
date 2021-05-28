@@ -1,6 +1,4 @@
-import { add } from 'date-fns/esm';
 import { createContext, useState, ReactNode, useContext } from 'react';
-import { Player } from '../components/Player';
 
 type Episode = {
     title: string;
@@ -41,7 +39,6 @@ export function PlayerContextProvider({ children } : PlayerContextProviderProps)
     const [isPlaying, setIsPlaying] = useState(false)
     const [isLooping, setIsLooping] = useState(false)
     const [isShuffling, setIsShuffling] = useState(false)
-    const [isModal, setIsModal] = useState(false)
 
     function play(episode: Episode) {
         setEpisodeList([episode])
@@ -92,18 +89,6 @@ export function PlayerContextProvider({ children } : PlayerContextProviderProps)
     function clearPlayerState() {
         setEpisodeList([])
         setCurrentEpisodeIndex(0)
-    }
-
-    function open() {
-        setIsModal(true)
-
-        return (
-            <Player />
-        );
-    }
-
-    function close() {
-        setIsModal(false)
     }
 
     return (

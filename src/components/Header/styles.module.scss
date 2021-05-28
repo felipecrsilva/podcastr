@@ -1,5 +1,6 @@
 .headerContainer {
     background-color: var(--white);
+    width: 100%;
     height: 6.5rem;
 
     display: flex;
@@ -8,7 +9,7 @@
     padding: 2rem 4rem;
 
     border: 1px solid var(--gray-100);
-
+    
     p {
         margin-left: 2rem;
         padding: 0.25rem 0 0.25rem 2rem;
@@ -18,5 +19,19 @@
     span {
         margin-left: auto;
         text-transform: capitalize;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .headerContainer {
+        padding: 2rem 2rem;
+
+        img {
+            width: 10rem;
+        }
+
+        p {
+            margin-right: 1rem;
+        }
     }
 }

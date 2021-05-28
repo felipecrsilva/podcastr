@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: var(--gray-50);
+}
+
 :root {
     --white: #FFF;
   
@@ -19,10 +23,6 @@
     --purple-400: #9164FA; 
     --purple-500: #8257E5;
     --purple-800: #6F48C9;
-}
-
-body {
-    background: var(--gray-50);
 }
 
 body, input,
